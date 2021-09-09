@@ -1,11 +1,11 @@
 package sample
 
-import "gitlab.com/techschool/pcbook/pb"
+import "github.com/ityulkanov/techschool/pb"
 
 func NewKeyboard *pb.Keyboard {
 	keyboard := &pb.Keyboard {
 		Layout: randomKeyboardLayout(), 
-		Backlit: randomBool(); 
+		Backlit: randomBool();
 	}
 
 	return keyboard
@@ -13,7 +13,7 @@ func NewKeyboard *pb.Keyboard {
 
 func NewCPU() *pb.CPU {
 	cpu := &pb.CPU{
-		brand := randomCPUBrand()
+		Brand: randomCPUBrand()
 	}
 	return cpu
 }
